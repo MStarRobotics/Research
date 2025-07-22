@@ -1,0 +1,108 @@
+<svg width="900" height="700" viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#0a192f"/>
+    </radialGradient>
+    <linearGradient id="pyramid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#805ad5"/>
+      <stop offset="100%" stop-color="#63b3ed"/>
+    </linearGradient>
+    <filter id="glow2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <symbol id="icon-strategy" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="4" fill="#232946" stroke="#805ad5" stroke-width="2"/>
+      <path d="M8 12h8" stroke="#805ad5" stroke-width="2"/>
+      <path d="M12 8v8" stroke="#805ad5" stroke-width="2"/>
+    </symbol>
+    <symbol id="icon-ops" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="#232946" stroke="#63b3ed" stroke-width="2"/>
+      <path d="M8 12h8" stroke="#63b3ed" stroke-width="2"/>
+      <path d="M12 8v8" stroke="#63b3ed" stroke-width="2"/>
+    </symbol>
+    <symbol id="icon-tech" viewBox="0 0 24 24">
+      <rect x="6" y="6" width="12" height="12" rx="3" fill="#232946" stroke="#64ffda" stroke-width="2"/>
+      <circle cx="12" cy="12" r="3" fill="#64ffda"/>
+    </symbol>
+    <symbol id="icon-culture" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="12" rx="8" ry="10" fill="#232946" stroke="#f687b3" stroke-width="2"/>
+      <circle cx="12" cy="12" r="2" fill="#f687b3"/>
+    </symbol>
+    <symbol id="icon-ai" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="4" fill="#232946" stroke="#f6e05e" stroke-width="2"/>
+      <circle cx="12" cy="12" r="5" fill="none" stroke="#f6e05e" stroke-width="2"/>
+      <circle cx="12" cy="12" r="2" fill="#f6e05e"/>
+    </symbol>
+    <symbol id="icon-quantum" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="12" rx="8" ry="10" fill="#232946" stroke="#b794f4" stroke-width="2"/>
+      <ellipse cx="12" cy="12" rx="4" ry="6" fill="none" stroke="#b794f4" stroke-width="2"/>
+      <circle cx="12" cy="12" r="2" fill="#b794f4"/>
+    </symbol>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg2)"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#805ad5" filter="url(#glow2)">A Strategic Framework for Ethical Hacking</text>
+  <!-- Pyramid -->
+  <g filter="url(#glow2)">
+    <polygon points="450,150 200,600 700,600" fill="url(#pyramid)" stroke="#805ad5" stroke-width="4"/>
+    <!-- Layers -->
+    <polygon points="450,210 250,570 650,570" fill="none" stroke="#63b3ed" stroke-width="2"/>
+    <polygon points="450,270 300,540 600,540" fill="none" stroke="#64ffda" stroke-width="2"/>
+    <polygon points="450,330 350,510 550,510" fill="none" stroke="#f6e05e" stroke-width="2"/>
+    <polygon points="450,390 400,480 500,480" fill="none" stroke="#f687b3" stroke-width="2"/>
+  </g>
+  <!-- Layer Labels & Icons -->
+  <!-- Top: STRATEGY -->
+  <g>
+    <use href="#icon-strategy" width="48" height="48" x="426" y="120"/>
+    <text x="450" y="185" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#805ad5" font-weight="bold">STRATEGY</text>
+    <text x="450" y="205" text-anchor="middle" font-size="15" fill="#b794f4">Vision, Risk Appetite, Governance</text>
+  </g>
+  <!-- Second: OPERATIONS -->
+  <g>
+    <use href="#icon-ops" width="44" height="44" x="428" y="210"/>
+    <text x="450" y="255" text-anchor="middle" font-size="20" font-family="Segoe UI, Arial" fill="#63b3ed" font-weight="bold">OPERATIONS</text>
+    <text x="450" y="275" text-anchor="middle" font-size="15" fill="#63b3ed">Process, Policy, Response</text>
+  </g>
+  <!-- Third: TECHNOLOGY -->
+  <g>
+    <use href="#icon-tech" width="40" height="40" x="430" y="290"/>
+    <text x="450" y="325" text-anchor="middle" font-size="20" font-family="Segoe UI, Arial" fill="#64ffda" font-weight="bold">TECHNOLOGY</text>
+    <text x="450" y="345" text-anchor="middle" font-size="15" fill="#64ffda">Tools, Automation, Integration</text>
+  </g>
+  <!-- Fourth: CULTURE -->
+  <g>
+    <use href="#icon-culture" width="36" height="36" x="432" y="370"/>
+    <text x="450" y="405" text-anchor="middle" font-size="20" font-family="Segoe UI, Arial" fill="#f687b3" font-weight="bold">CULTURE</text>
+    <text x="450" y="425" text-anchor="middle" font-size="15" fill="#f687b3">Awareness, Training, Ethics</text>
+  </g>
+  <!-- Fifth: AI &amp; QUANTUM FUTURE -->
+  <g>
+    <use href="#icon-ai" width="32" height="32" x="434" y="450"/>
+    <use href="#icon-quantum" width="32" height="32" x="434" y="490"/>
+    <text x="450" y="505" text-anchor="middle" font-size="20" font-family="Segoe UI, Arial" fill="#f6e05e" font-weight="bold">AI &amp; QUANTUM FUTURE</text>
+    <text x="450" y="525" text-anchor="middle" font-size="15" fill="#f6e05e">Emerging Threats &amp; Opportunities</text>
+  </g>
+  <!-- Base: ORGANIZATIONAL RESILIENCE -->
+  <g filter="url(#glow2)">
+    <rect x="320" y="570" width="260" height="50" rx="25" fill="#232946" stroke="#805ad5" stroke-width="3"/>
+    <text x="450" y="600" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#805ad5" font-weight="bold">ORGANIZATIONAL RESILIENCE</text>
+  </g>
+  <!-- Side Notes -->
+  <g>
+    <text x="120" y="200" font-size="16" fill="#b2f5ea" font-family="Segoe UI, Arial" font-weight="bold">INPUTS</text>
+    <text x="120" y="225" font-size="14" fill="#b2f5ea">Leadership Mandate</text>
+    <text x="120" y="245" font-size="14" fill="#b2f5ea">Threat Landscape</text>
+    <text x="120" y="265" font-size="14" fill="#b2f5ea">Regulatory Drivers</text>
+    <line x1="160" y1="270" x2="250" y2="570" stroke="#805ad5" stroke-width="2"/>
+    <text x="780" y="650" font-size="16" fill="#f6e05e" font-family="Segoe UI, Arial" font-weight="bold" text-anchor="end">OUTPUTS</text>
+    <text x="780" y="675" font-size="14" fill="#f6e05e" text-anchor="end">Digital Trust</text>
+    <text x="780" y="695" font-size="14" fill="#f6e05e" text-anchor="end">Competitive Advantage</text>
+    <text x="780" y="715" font-size="14" fill="#f6e05e" text-anchor="end">Sustained Compliance</text>
+    <line x1="650" y1="570" x2="780" y2="650" stroke="#f6e05e" stroke-width="2"/>
+  </g>
+</svg>

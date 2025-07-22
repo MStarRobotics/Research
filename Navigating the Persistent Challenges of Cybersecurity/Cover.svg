@@ -1,0 +1,95 @@
+<svg width="850" height="1100" viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- 
+    Final Cover Page for "Navigating the Persistent Challenges of Cybersecurity"
+    Designed by GitHub Copilot for morningstarxcdcode
+  -->
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-radial-gradient" cx="50%" cy="50%" r="80%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#1b263b;" />
+      <stop offset="100%" style="stop-color:#0d1b2a;" />
+    </radialGradient>
+
+    <!-- Abstract Network Pattern -->
+    <pattern id="network-pattern-final" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 15 L120 15 M15 0 L15 120 M0 60 L120 60 M60 0 L60 120" stroke="#415a77" stroke-width="0.7" opacity="0.15"/>
+      <circle cx="30" cy="30" r="1.5" fill="#778da9" opacity="0.2"/>
+      <circle cx="90" cy="90" r="1.5" fill="#778da9" opacity="0.2"/>
+    </pattern>
+
+    <!-- Enhanced Shield Glow Filter -->
+    <filter id="shield-glow-final" x="-75%" y="-75%" width="250%" height="250%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Enhanced Shield Segment Gradient -->
+    <linearGradient id="shield-gradient-final" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#00b4d8;" />
+        <stop offset="100%" style="stop-color:#0077b6;" />
+    </linearGradient>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="1100" fill="url(#bg-radial-gradient)" />
+  <rect width="850" height="1100" fill="url(#network-pattern-final)" />
+
+  <!-- Title Block -->
+  <text x="425" y="150" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="bold" fill="#e0e1dd" letter-spacing="0.5">
+    Navigating the Persistent Challenges of Cybersecurity
+  </text>
+  <text x="425" y="250" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#e0e1dd">
+    A Multidisciplinary Framework for Enhancing Digital Resilience
+  </text>
+  <text x="425" y="285" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#e0e1dd">
+    in the Age of AI and Quantum Computing
+  </text>
+
+  <!-- Central Visual Element -->
+  <g transform="translate(425, 550)">
+    <!-- Deflected Threat Lines -->
+    <path d="M -320 -160 Q -160 -110 -130 -60" stroke="#ff4d6d" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <path d="M -270 190 Q -120 110 -120 50" stroke="#ff4d6d" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <path d="M 320 -110 Q 170 -60 125 -30" stroke="#ff4d6d" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <path d="M 300 160 Q 170 90 130 60" stroke="#ff4d6d" stroke-width="2.5" fill="none" opacity="0.7"/>
+
+    <!-- Shield with Enhanced Glow -->
+    <g filter="url(#shield-glow-final)">
+      <!-- Shield composed of 3 interlocking parts -->
+      <path d="M 0 -150 L -100 0 L 0 50 L 100 0 Z" fill="url(#shield-gradient-final)" stroke="#caf0f8" stroke-width="4"/>
+      <path d="M -95 5 L -5 50 L -5 150 Z" fill="url(#shield-gradient-final)" stroke="#caf0f8" stroke-width="4"/>
+      <path d="M 95 5 L 5 50 L 5 150 Z" fill="url(#shield-gradient-final)" stroke="#caf0f8" stroke-width="4"/>
+      
+      <!-- Inner Icon: Fingerprint + Circuit -->
+      <g opacity="0.8">
+        <!-- Fingerprint lines -->
+        <path d="M 0 -60 Q -20 -50 -40 -30" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <path d="M 0 -45 Q -15 -35 -30 -15" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <path d="M 10 -60 Q 25 -50 45 -30" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <path d="M 10 -45 Q 20 -35 35 -15" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <!-- Circuit lines -->
+        <path d="M 0 -20 L 0 20" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <path d="M -20 0 L 20 0" stroke="#caf0f8" stroke-width="2.5" fill="none"/>
+        <circle cx="0" cy="0" r="6" fill="#caf0f8"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Author Block -->
+  <text x="425" y="900" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#e0e1dd">
+    A Research Paper
+  </text>
+  <text x="425" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#e0e1dd">
+    by
+  </text>
+  <text x="425" y="985" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">
+    morningstarxcdcode
+  </text>
+  <text x="425" y="1015" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#e0e1dd">
+    October 2023
+  </text>
+</svg>

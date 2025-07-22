@@ -1,0 +1,144 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="timeline-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#1a365d" />
+    </linearGradient>
+    <filter id="glow-sm" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1200" fill="url(#timeline-bg)" />
+
+  <text x="400" y="60" text-anchor="middle" font-size="32" font-weight="bold" fill="#64ffda" filter="url(#glow-sm)">The Co-Evolution of Cyber Threats &amp; Ethical Hacking</text>
+
+  <!-- Central Timeline -->
+  <line x1="400" y1="100" x2="400" y2="1150" stroke="#63b3ed" stroke-width="4" />
+
+  <!-- Events -->
+
+  <!-- 1970s -->
+  <g transform="translate(400, 150)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">1970s</text>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="-30" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="-5" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">"Tiger Teams" Emerge</text>
+      <text x="-150" y="15" text-anchor="middle" fill="#b2f5ea" font-size="12">US government uses elite teams to test security.</text>
+    </g>
+  </g>
+
+  <!-- 1988 -->
+  <g transform="translate(400, 250)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">1988</text>
+    <g transform="translate(40, 0)">
+      <rect x="20" y="-30" width="260" height="60" rx="5" fill="#2d1a3a" stroke="#f687b3" stroke-width="2"/>
+      <text x="150" y="-5" text-anchor="middle" fill="#f687b3" font-size="16" font-weight="bold">Morris Worm</text>
+      <text x="150" y="15" text-anchor="middle" fill="#fbb6ce" font-size="12">First major internet worm, highlights vulnerabilities.</text>
+    </g>
+  </g>
+
+  <!-- 1995 -->
+  <g transform="translate(400, 350)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">1995</text>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="-30" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="-5" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">Rise of Commercial Pen Testing</text>
+      <text x="-150" y="15" text-anchor="middle" fill="#b2f5ea" font-size="12">Dan Farmer &amp; Wietse Venema release SATAN.</text>
+    </g>
+  </g>
+
+  <!-- 2003 -->
+  <g transform="translate(400, 450)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2003</text>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="-30" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="-5" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">OWASP Top 10 is Born</text>
+      <text x="-150" y="15" text-anchor="middle" fill="#b2f5ea" font-size="12">Standardizes web application security risks.</text>
+    </g>
+  </g>
+
+  <!-- 2010 -->
+  <g transform="translate(400, 550)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2010</text>
+    <g transform="translate(40, 0)">
+      <rect x="20" y="-30" width="260" height="60" rx="5" fill="#2d1a3a" stroke="#f687b3" stroke-width="2"/>
+      <text x="150" y="-5" text-anchor="middle" fill="#f687b3" font-size="16" font-weight="bold">Stuxnet Worm</text>
+      <text x="150" y="15" text-anchor="middle" fill="#fbb6ce" font-size="12">Targets critical infrastructure (ICS/SCADA).</text>
+    </g>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="50" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="75" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">Bug Bounty Programs Go Mainstream</text>
+      <text x="-150" y="95" text-anchor="middle" fill="#b2f5ea" font-size="12">Google, Facebook launch public programs.</text>
+    </g>
+  </g>
+
+  <!-- 2017 -->
+  <g transform="translate(400, 700)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2017</text>
+    <g transform="translate(40, 0)">
+      <rect x="20" y="-30" width="260" height="60" rx="5" fill="#2d1a3a" stroke="#f687b3" stroke-width="2"/>
+      <text x="150" y="-5" text-anchor="middle" fill="#f687b3" font-size="16" font-weight="bold">WannaCry &amp; NotPetya</text>
+      <text x="150" y="15" text-anchor="middle" fill="#fbb6ce" font-size="12">Global ransomware attacks cause massive disruption.</text>
+    </g>
+  </g>
+
+  <!-- 2020 -->
+  <g transform="translate(400, 800)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2020</text>
+    <g transform="translate(40, 0)">
+      <rect x="20" y="-30" width="260" height="60" rx="5" fill="#2d1a3a" stroke="#f687b3" stroke-width="2"/>
+      <text x="150" y="-5" text-anchor="middle" fill="#f687b3" font-size="16" font-weight="bold">SolarWinds Attack</text>
+      <text x="150" y="15" text-anchor="middle" fill="#fbb6ce" font-size="12">Highlights massive risk of supply chain attacks.</text>
+    </g>
+  </g>
+
+  <!-- 2023 -->
+  <g transform="translate(400, 900)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2023</text>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="-30" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="-5" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">AI in Penetration Testing</text>
+      <text x="-150" y="15" text-anchor="middle" fill="#b2f5ea" font-size="12">AI tools begin to automate and scale testing.</text>
+    </g>
+  </g>
+
+  <!-- 2025+ -->
+  <g transform="translate(400, 1000)">
+    <circle r="10" fill="#63b3ed" filter="url(#glow-sm)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2025+</text>
+    <g transform="translate(40, 0)">
+      <rect x="20" y="-30" width="260" height="60" rx="5" fill="#2d1a3a" stroke="#f687b3" stroke-width="2"/>
+      <text x="150" y="-5" text-anchor="middle" fill="#f687b3" font-size="16" font-weight="bold">Generative AI Attacks</text>
+      <text x="150" y="15" text-anchor="middle" fill="#fbb6ce" font-size="12">Deepfake phishing &amp; polymorphic malware.</text>
+    </g>
+    <g transform="translate(-40, 0)">
+      <rect x="-280" y="50" width="260" height="60" rx="5" fill="#1a365d" stroke="#64ffda" stroke-width="2"/>
+      <text x="-150" y="75" text-anchor="middle" fill="#64ffda" font-size="16" font-weight="bold">Post-Quantum Readiness</text>
+      <text x="-150" y="95" text-anchor="middle" fill="#b2f5ea" font-size="12">Ethical hackers begin testing PQC implementations.</text>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(200, 1120)">
+    <rect x="0" y="0" width="20" height="20" fill="#1a365d" stroke="#64ffda" stroke-width="2" />
+    <text x="30" y="15" fill="#64ffda" font-size="14">Ethical Hacking Evolution</text>
+  </g>
+  <g transform="translate(450, 1120)">
+    <rect x="0" y="0" width="20" height="20" fill="#2d1a3a" stroke="#f687b3" stroke-width="2" />
+    <text x="30" y="15" fill="#f687b3" font-size="14">Major Threat Developments</text>
+  </g>
+
+</svg>
