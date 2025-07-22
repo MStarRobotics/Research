@@ -1,0 +1,36 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Welcome to the **MStarRobotics/Research** repository!  
+            Thank you for opening your first issue.  
+            This repository is dedicated to research reports and discussions on **Cyber Security**.  
+
+            **A few tips before you proceed:**
+            - Please provide as much detail as possible.
+            - Share any references or sources, if applicable.
+            - Review our [contribution guidelines](../../blob/main/CONTRIBUTING.md) (if available).
+
+            We appreciate your interest in improving cyber security research!
+          pr-message: |
+            🎉 Thank you for your first pull request to **MStarRobotics/Research**!  
+            Your contribution helps advance our research on cyber security.  
+
+            **A few tips before you proceed:**
+            - Ensure your PR description is clear and detailed.
+            - Link related issues if applicable.
+            - Check our [contribution guidelines](../../blob/main/CONTRIBUTING.md) (if available).
+
+            We look forward to reviewing your ideas and research!
