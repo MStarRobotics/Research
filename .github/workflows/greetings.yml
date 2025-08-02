@@ -1,4 +1,7 @@
 name: Greetings
+permissions:
+  issues: write
+  pull-requests: write
 
 on:
   issues:
